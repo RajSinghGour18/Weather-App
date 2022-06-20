@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+
+} 
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(./images.jpg); */
+    background-size: cover;
+}
+.container{
+    height: 90%;
+    width: 30%;
+    /* background-color: aqua; */
+    border-radius: 30px;
+    border: 1px solid black;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 180%);
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% ); */
+}
+.container h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.container h4{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.container h5{
+    font-size: 20px;
+}
+.weather-search{
+    height: 90px;
+    width: 90%;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    border-radius: 15px;
+}
+input{
+    height: 30px;
+    margin-left: 15px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color: black; */
+    /* border: none; */
+    /* color: white; */
+    margin-top: 7px;
+}
+button{
+    height: 30px;
+    margin-left: 15px;
+    width: 90%;
+    /* background-color: black; */
+    /* color: white; */
+    border-radius: 20px;
+}
+.weather-data{
+    height: 320px;
+    width: 90%;
+    border: 1px solid black;
+    /* color: white; */
+    border-radius: 20px;
+    /* background-image: url(./509377-summer-beach-background-1080x1920-for-tablet.jpg); */
+     background-image: url(./images.jpg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+    background-size: cover;
+    margin-top: 25px;
+}
+.weather-data h2{
+    margin-left: 18px;
+    font-size: 38px;
+    margin-top: 10px;
+    color: white;
+}
+.weather-data h1{
+    margin-left: 23px;
+    color: white;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 75px;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    margin-left: 120px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.weather-data p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
